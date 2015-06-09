@@ -1,3 +1,21 @@
-In order to test our program, we plan to use PGN files from high profile, professional level chess matches as our test files. We have the expected data and results for the games to compare our output with in order to ensure that our tests are performing correctly. Once our program is up and running, we will need to test that our program  is obtaining the correct player elos, reading the correct moves, and identifying the value of the match. In order to do this, we will compare the data that our program is getting with the expected values from the PGN files being read. This is the data that we will be using for the rest of the program so it is crucial that we are going to be working with the correct values. The actual moves on the board are not used at all in acheving the program's main goal, however we may use it to implement some additional features once the main program is up and running. If that's the case, we can go back and ensure that we are parsing the moves correctly. Otherwise it is unneeded.
+In order to test our program, we plan to use PGN files from high profile,
+professional level chess matches as our test files. We have the expected
+data and results for the games to compare our output with in order to 
+ensure that our tests are performing correctly. Once our program is up and 
+running, we will need to test that our program  is obtaining the correct 
+player elos, reading the correct moves, and identifying the value of 
+the match. In order to do this, we will compare the data that our program 
+is getting with the expected values from the PGN files being read. This is
+the data that we will be using for the rest of the program so it is 
+crucial that we are going to be working with the correct values. The 
+actual moves on the board are not used at all in acheving the program's 
+main goal, however we may use it to implement some additional features 
+once the main program is up and running. If that's the case, we can go 
+back and ensure that we are parsing the moves correctly. Otherwise it is 
+unneeded.
 
-We are doing our programming in C# so we will be using unit tests. We will be using the arrange, act, assert pattern to write our tests, which is reccomended by Microsoft to use with C#. Overall, the main focus of our tests will be to ensure that we are obtaining the correct data from the PGN files that we are reading.
+We are doing our programming in C# so we will be using unit 
+tests. We will be using the arrange, act, assert pattern to write our 
+tests, which is reccomended by Microsoft to use with C#. Overall, the main 
+focus of our tests will be to ensure that we are obtaining the correct data 
+from the PGN files that we are reading.
